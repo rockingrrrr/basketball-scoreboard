@@ -3,8 +3,6 @@
 let homeScoreEl = document.getElementById("home-score")
 let guestScoreEl = document.getElementById("guest-score")
 
-console.log(typeof(homeScoreEl))
-
 function homeOnePoint(){
     homeScoreEl.innerText = Number(homeScoreEl.innerText) + 1
 }
